@@ -4,8 +4,8 @@ import io
 import ipywidgets as widgets
 from IPython.display import display, clear_output
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from BinaryRework import *
-from OconnellRework import *
+from Binary import *
+from Oconnell import *
 
 
 class _Meta(type):
